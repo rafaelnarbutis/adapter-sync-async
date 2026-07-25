@@ -163,8 +163,8 @@ curl -X POST http://localhost:8081/v1/simulate \
 
 ## Testes com K6 - loadtest.js
 
-Java -- Spring + Kafka
-
+### Java -- Spring + Kafka
+```bash
 HTTP
     http_req_duration..............: avg=14.8ms min=1.86ms med=14.16ms max=34.01ms p(90)=22.16ms p(95)=23.17ms
       { expected_response:true }...: avg=14.8ms min=1.86ms med=14.16ms max=34.01ms p(90)=22.16ms p(95)=23.17ms
@@ -180,9 +180,10 @@ HTTP
     NETWORK
     data_received..................: 994 kB 5.5 kB/s
     data_sent......................: 2.2 MB 12 kB/s
+```
 
-Go -- Gin + Kafka
-
+### Go -- Gin + Kafka
+```bash
 HTTP
     http_req_duration..............: avg=864.9ms min=101.74ms med=883.86ms max=1.74s p(90)=1.6s p(95)=1.66s
       { expected_response:true }...: avg=864.9ms min=101.74ms med=883.86ms max=1.74s p(90)=1.6s p(95)=1.66s
@@ -198,7 +199,7 @@ HTTP
     NETWORK
     data_received..................: 759 kB 4.2 kB/s
     data_sent......................: 1.2 MB 6.6 kB/s
-
+```
 ---
 
 ## 🐛 Troubleshooting
