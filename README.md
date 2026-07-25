@@ -68,8 +68,8 @@ adapter/
 
 ### 1️⃣ Clonar o Repositório
 ```bash
-git clone <seu-repositorio>
-cd adapter
+git clone https://github.com/rafaelnarbutis/adapter-sync-async.git
+cd adapter-sync-async
 ```
 
 ### 2️⃣ Configurar a Infraestrutura
